@@ -1,6 +1,6 @@
 export default {
   async fetch(request, env) {
-    const token = env.TELEGRAM_BOT_TOKEN;8947150247:AAHSju6x1VjqmC3bIAMXgFhugjYlZGOiJ7Y
+    const token = env.TELEGRAM_BOT_TOKEN;
 
     if (!token) {
       return new Response("TELEGRAM_BOT_TOKEN bulunamadı");
